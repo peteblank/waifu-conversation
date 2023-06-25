@@ -1,0 +1,7 @@
+assemblyai
+keyboard
+playsound
+boto3
+pipewire-recorder
+soundfile
+sounddevice
