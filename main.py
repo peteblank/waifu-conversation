@@ -11,14 +11,16 @@ import time
 import simpleaudio as sa
 from pydub import AudioSegment
 
+#poly api
 session = Session(
-    region_name="eu-north-1",
-    aws_access_key_id="AKIAQMPXS2JF4PFWU7VG",
-    aws_secret_access_key="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",
+    region_name="<location>",
+    aws_access_key_id="<aws key>",
+    aws_secret_access_key="<aws secret>",
 )
 polly_client = session.client("polly", region_name="eu-north-1")
 
-aai.settings.api_key = "4df30ebed1254300af42005de8aca918"
+#assembly ai api
+aai.settings.api_key = "<assemblyai api>"
 transcriber = aai.Transcriber()
 
 print('Press "e" to start recording and "s" to stop')
@@ -63,10 +65,10 @@ def waifu():
         + data
         + '", "from_name": "Boy", "to_name": "Girl", "situation": "Girl loves Boy.", "translate_from": "auto", "translate_to": "auto"}'
     )
-
+    #waifu ai api
     headers = {
         "content-type": "application/json",
-        "X-RapidAPI-Key": "1ad22d441fmsh6e3b6b479272ff4p18915fjsn16204f31152f",
+        "X-RapidAPI-Key": "<waifuai rapid api>",
         "X-RapidAPI-Host": "waifu.p.rapidapi.com",
     }
 
