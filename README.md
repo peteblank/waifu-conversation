@@ -8,3 +8,5 @@ talking to the waifu via mic
 2.run main.py
 
 3.hope it works
+
+You'll also need aws poly api, waifu ai rapid api and assemblyai api.
