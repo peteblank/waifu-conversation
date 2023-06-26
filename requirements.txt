@@ -1,9 +1,12 @@
 assemblyai
+assemblyai[extras]
+numpy
 keyboard
 playsound
 boto3
-pipewire-recorder
+#pipewire_recorder
 soundfile
 sounddevice
 simpleaudio
 pydub
+pygobject
