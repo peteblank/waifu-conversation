@@ -7,6 +7,8 @@ copy paste the following in the command line:
 
 sudo apt install awscli mplayer arecord jq
 
+then run the script with ./final.sh
+
 I added aws config in the script so you can enter your information for aws-cli.
 
 # how to install python
