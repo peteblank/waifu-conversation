@@ -11,6 +11,10 @@ then run the script with ./final.sh
 
 I added aws config in the script so you can enter your information for aws-cli.
 
+Also remember to create an s3 bucket and put the information for the bucket in the script along with the rapidAPI for waifuAI.
+
+https://rapidapi.com/waifuai/api/waifu
+
 # how to install python
 
 1.run pip install -r requirements.txt
