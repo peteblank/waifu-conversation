@@ -5,7 +5,7 @@ talking to the waifu via mic
 
 copy paste the following in the command line:
 
-sudo apt install awscli mplayer arerecord jq
+sudo apt install awscli mplayer arecord jq
 
 I added aws config in the script so you can enter your information for aws-cli.
 
