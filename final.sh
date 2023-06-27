@@ -1,7 +1,7 @@
 #!/bin/bash
 
 mp3_file="output.mp3"
-s3_bucket_name="peteblankbackup"
+s3_bucket_name="<your s3 bucket name>"
 transcription_job_name="MyTranscriptionJob3"
 random_number=$((1 + RANDOM % 1000))
 recording_file="recording_${random_number}.wav"
