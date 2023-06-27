@@ -1,7 +1,15 @@
 # waifu-conversation
 talking to the waifu via mic
 
-# how to install
+# how to install bash (recommended)
+
+copy paste the following in the command line:
+
+sudo apt install awscli mplayer arerecord jq
+
+I added aws config in the script so you can enter your information for aws-cli.
+
+# how to install python
 
 1.run pip install -r requirements.txt
 
