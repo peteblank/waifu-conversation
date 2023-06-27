@@ -5,7 +5,9 @@ s3_bucket_name="peteblankbackup"
 transcription_job_name="MyTranscriptionJob3"
 random_number=$((1 + RANDOM % 1000))
 recording_file="recording_${random_number}.wav"
-waifu_rapidapi_key="1ad22d441fmsh6e3b6b479272ff4p18915fjsn16204f31152f"
+waifu_rapidapi_key=""
+
+aws configure
 
 # Function to play audio
 play_audio() {
