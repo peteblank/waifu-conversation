@@ -1,7 +1,7 @@
 # waifu-conversation
 talking to the waifu via mic
 
-# how to install bash (recommended)
+# how to install in bash (recommended)
 
 copy paste the following in the command line:
 
