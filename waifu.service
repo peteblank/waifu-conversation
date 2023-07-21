@@ -1,0 +1,11 @@
+[Unit]
+Description=talking to the waifu
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/root/final.sh
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
