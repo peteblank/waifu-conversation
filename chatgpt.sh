@@ -1,4 +1,5 @@
 #!/bin/bash
+#kyruu is a brat 
 
 mp3_file="output.mp3"
 s3_bucket_name="soundwaifu"
